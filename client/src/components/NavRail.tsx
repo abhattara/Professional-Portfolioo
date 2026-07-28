@@ -7,6 +7,7 @@ const SECTIONS = [
   { id: "value", label: "Value" },
   { id: "vision", label: "Vision" },
   { id: "artifact", label: "Artifact 01" },
+  { id: "artifact-02", label: "Artifact 02" },
   { id: "outlook", label: "Outlook" },
 ];
 
@@ -76,7 +77,7 @@ export default function NavRail() {
           href="#artifact"
           className="font-mono text-[10px] uppercase tracking-[0.2em] text-primary border border-primary/40 rounded-sm px-3 py-1.5 active:scale-[0.97] transition-transform duration-150"
         >
-          Artifact 01
+          Artifacts
         </a>
       </header>
     </>

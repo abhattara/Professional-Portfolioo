@@ -1,10 +1,11 @@
 /*
   MIDNIGHT QUANT — Deep-Sea Data Noir single-page portfolio.
-  Section order mirrors the source deck: Hero → Bio → Value → Vision → Artifact 01 → Outlook → Footer.
+  Section order mirrors the source deck: Hero → Bio → Value → Vision → Artifact 01 → Artifact 02 → Outlook → Footer.
   Left nav rail (desktop) / top bar (mobile). Content offset right of the 4rem rail on lg+.
 */
 import NavRail from "@/components/NavRail";
 import Artifact from "@/components/sections/Artifact";
+import Artifact02 from "@/components/sections/Artifact02";
 import Bio from "@/components/sections/Bio";
 import Footer from "@/components/sections/Footer";
 import Hero from "@/components/sections/Hero";
@@ -22,6 +23,7 @@ export default function Home() {
         <Value />
         <Vision />
         <Artifact />
+        <Artifact02 />
         <Outlook />
         <Footer />
       </main>
