@@ -273,6 +273,24 @@
   }
 }
 
+/* Turing exhibit — ambient signal sweep across the A / B / C setup cells */
+@media (prefers-reduced-motion: no-preference) {
+  .turing-scan {
+    animation: turingScan 3.6s ease-in-out infinite;
+  }
+  @keyframes turingScan {
+    0%,
+    100% {
+      opacity: 0.15;
+      transform: translateX(-45%);
+    }
+    50% {
+      opacity: 0.9;
+      transform: translateX(45%);
+    }
+  }
+}
+
 /* Selection */
 ::selection {
   background: oklch(0.82 0.13 211 / 30%);

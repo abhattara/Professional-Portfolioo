@@ -61,6 +61,12 @@ export default function Hero() {
               View Artifact 02 <span aria-hidden>→</span>
             </a>
             <a
+              href="#artifact-03"
+              className="inline-flex items-center gap-2 border border-primary/40 text-primary font-mono text-xs uppercase tracking-[0.2em] px-6 py-3.5 rounded-sm hover:bg-primary/10 hover:border-primary active:scale-[0.97] transition-all duration-150"
+            >
+              View Artifact 03 <span aria-hidden>→</span>
+            </a>
+            <a
               href="#bio"
               className="inline-flex items-center gap-2 border border-border text-foreground/90 font-mono text-xs uppercase tracking-[0.2em] px-6 py-3.5 rounded-sm hover:border-primary/50 hover:text-primary active:scale-[0.97] transition-all duration-150"
             >
