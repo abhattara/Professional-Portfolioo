@@ -51,7 +51,7 @@ export default function Bio() {
         <div className="lg:col-span-5 reveal" style={{ "--reveal-delay": "150ms" } as React.CSSProperties}>
           <figure className="relative border border-border">
             <img
-              src="/manus-storage/bio-accent_66d8771f.png"
+              src="/assets/bio-accent.webp"
               alt="Illustration blending piano keys, code and sound waves"
               className="w-full h-auto object-cover"
               loading="lazy"

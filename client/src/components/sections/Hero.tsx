@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Backdrop */}
       <div className="absolute inset-0">
         <img
-          src="/manus-storage/hero-bg_2df58f49.png"
+          src="/assets/hero-bg.webp"
           alt=""
           aria-hidden
           className="hero-drift w-full h-full object-cover opacity-90"
@@ -22,7 +22,7 @@ export default function Hero() {
         {/* Brand lockup — opening-viewport identity system */}
         <div className="reveal hidden lg:flex items-center justify-between mb-14 -mt-16">
           <div className="flex items-center gap-3">
-            <img src="/manus-storage/logo-ab_3a23113f.png" alt="AB monogram" className="w-10 h-10" />
+            <img src="/assets/logo-ab.webp" alt="AB monogram" className="w-10 h-10" />
             <span className="font-display font-semibold tracking-wide text-foreground/90">
               Abhi Bhattarai<span aria-hidden className="cursor-blink text-primary">▍</span>
             </span>

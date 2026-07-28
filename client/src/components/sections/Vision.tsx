@@ -25,7 +25,7 @@ export default function Vision() {
         <div className="lg:col-span-5 order-2 lg:order-1 reveal" style={{ "--reveal-delay": "150ms" } as React.CSSProperties}>
           <figure className="relative border border-border">
             <img
-              src="/manus-storage/vision-fintech_7db634c5.png"
+              src="/assets/vision-fintech.webp"
               alt="Holographic trading dashboard with forecast fan charts and neural nodes"
               className="w-full h-auto object-cover"
               loading="lazy"
