@@ -17,7 +17,7 @@ export default function Outlook() {
       <div className="relative container">
         <div className="max-w-2xl">
           <div className="reveal">
-            <IndexTag index="06" label="Strategic Outlook" meta="RESPONSIBLE AI" />
+            <IndexTag index="05" label="Strategic Outlook" meta="RESPONSIBLE AI" />
           </div>
           <h2 className="reveal font-display font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight mt-6" style={{ "--reveal-delay": "60ms" } as React.CSSProperties}>
             Our Next-Generation <span className="text-primary">Responsibilities</span>
