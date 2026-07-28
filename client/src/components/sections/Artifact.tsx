@@ -97,7 +97,7 @@ export default function Artifact() {
       {/* Header band with artifact artwork */}
       <div className="relative overflow-hidden">
         <img
-          src="/manus-storage/eras-artifact_71e77f82.png"
+          src="/assets/eras-artifact.webp"
           alt=""
           aria-hidden
           className="absolute inset-0 w-full h-full object-cover opacity-40"

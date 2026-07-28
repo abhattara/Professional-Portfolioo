@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="container py-12">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <img src="/manus-storage/logo-ab_3a23113f.png" alt="AB monogram" className="w-9 h-9" />
+            <img src="/assets/logo-ab.webp" alt="AB monogram" className="w-9 h-9" />
             <div>
               <p className="font-display font-semibold text-base leading-tight">
                 Abhi Bhattarai<span aria-hidden className="cursor-blink text-primary">▍</span>

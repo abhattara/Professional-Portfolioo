@@ -7,7 +7,7 @@ export default function Outlook() {
   return (
     <section id="outlook" ref={ref} className="relative py-24 lg:py-32 border-t border-border bg-sidebar overflow-hidden">
       <img
-        src="/manus-storage/ai-head_45bc0096.png"
+        src="/assets/ai-head.webp"
         alt=""
         aria-hidden
         className="absolute right-0 top-0 h-full w-auto object-cover opacity-30 pointer-events-none hidden md:block"

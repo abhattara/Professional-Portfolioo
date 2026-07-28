@@ -39,7 +39,7 @@ export default function NavRail() {
         className="hidden lg:flex fixed left-0 top-0 h-screen w-16 z-40 flex-col items-center justify-between py-6 border-r border-border bg-background/60 backdrop-blur-md"
       >
         <a href="#top" aria-label="Back to top">
-          <img src="/manus-storage/logo-ab_3a23113f.png" alt="AB monogram" className="w-9 h-9" />
+          <img src="/assets/logo-ab.webp" alt="AB monogram" className="w-9 h-9" />
         </a>
         <div className="flex flex-col items-center gap-5">
           {SECTIONS.map((s) => (
@@ -70,7 +70,7 @@ export default function NavRail() {
       {/* Mobile top bar */}
       <header className="lg:hidden fixed top-0 inset-x-0 z-40 flex items-center justify-between px-4 h-14 border-b border-border bg-background/80 backdrop-blur-md">
         <a href="#top" className="flex items-center gap-2">
-          <img src="/manus-storage/logo-ab_3a23113f.png" alt="AB monogram" className="w-7 h-7" />
+          <img src="/assets/logo-ab.webp" alt="AB monogram" className="w-7 h-7" />
           <span className="font-display font-600 text-sm tracking-wide">Abhi Bhattarai</span>
         </a>
         <a
