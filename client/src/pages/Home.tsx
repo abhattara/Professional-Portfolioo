@@ -3,6 +3,8 @@
   Section order mirrors the source deck: Hero → Bio → Value → Vision → Artifact 01 → Artifact 02 → Artifact 03 → Artifact 04 → Outlook → Footer.
   Left nav rail (desktop) / top bar (mobile). Content offset right of the 4rem rail on lg+.
 */
+import { useEffect } from "react";
+
 import NavRail from "@/components/NavRail";
 import Artifact from "@/components/sections/Artifact";
 import Artifact02 from "@/components/sections/Artifact02";
@@ -16,6 +18,19 @@ import Value from "@/components/sections/Value";
 import Vision from "@/components/sections/Vision";
 
 export default function Home() {
+  /*
+    Sections are laid out by the reveal observer after paint, so a hash present at
+    load resolves to offset 0. Re-resolve it once the layout has settled.
+  */
+  useEffect(() => {
+    const id = window.location.hash.slice(1);
+    if (!id) return;
+    const frame = requestAnimationFrame(() => {
+      document.getElementById(id)?.scrollIntoView({ behavior: "auto", block: "start" });
+    });
+    return () => cancelAnimationFrame(frame);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       <NavRail />
