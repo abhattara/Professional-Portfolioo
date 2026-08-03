@@ -5,6 +5,7 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import Concierge from "./pages/Concierge";
 import MnqAssistant from "./pages/MnqAssistant";
 import TuringTest from "./pages/TuringTest";
 
@@ -15,6 +16,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/mnq-assistant"} component={MnqAssistant} />
       <Route path={"/turing-test"} component={TuringTest} />
+      <Route path={"/concierge"} component={Concierge} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

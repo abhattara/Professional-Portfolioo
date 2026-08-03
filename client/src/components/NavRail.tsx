@@ -9,6 +9,7 @@ const SECTIONS = [
   { id: "artifact", label: "Artifact 01" },
   { id: "artifact-02", label: "Artifact 02" },
   { id: "artifact-03", label: "Artifact 03" },
+  { id: "artifact-04", label: "Artifact 04" },
   { id: "outlook", label: "Outlook" },
 ];
 
